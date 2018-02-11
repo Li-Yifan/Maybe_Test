@@ -3,3 +3,31 @@ git add test.py
 git commit -m "message"
 git commit -am "message" // add and commit together
 git status //what's currently happening
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+git push
+git pull
+
+1 changes line 24 then push
+2 also change line 24 then pull
+cause merge conflict
+merge conflict // two both change same line
+head you made
+
+
+
+git log -- show history
+
+git reset -- revert code back to previous commit
+
+
+branching:
+git branch -- show all branches of code
+
+git checkout <branch_name> -- switch to a new branch
+
+git branch tests -- making a new branch call tests
+
+git merge tests -- merge every file on tests branch to master branch
