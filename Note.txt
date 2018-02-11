@@ -31,3 +31,14 @@ git checkout <branch_name> -- switch to a new branch
 git branch tests -- making a new branch call tests
 
 git merge tests -- merge every file on tests branch to master branch
+
+example:
+git branch function -- create a new branch called function
+git checkout function -- switch to the new branch
+... write a test function on function branches
+
+git checkout master
+git merge function
+
+=========================================
+pull requests
