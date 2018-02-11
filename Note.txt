@@ -1,1 +1,5 @@
 git diff
+git add test.py
+git commit -m "message"
+git commit -am "message" // add and commit together
+git status //what's currently happening
