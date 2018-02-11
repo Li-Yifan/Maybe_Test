@@ -40,5 +40,19 @@ git checkout function -- switch to the new branch
 git checkout master
 git merge function
 
+
+git branch -D tests -- way to delete a branch
 =========================================
 pull requests
+
+
+example:
+git branch tests -- create branch test
+git checkout test -- go into the branch test
+
+made a changes
+
+git commit -am "message"
+
+git branch master
+git merge tests
